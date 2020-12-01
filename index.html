@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Covid-tracker</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="box">
+   <h1>Covid-19 tracker by Country</h1>
+
+   <form id="covidForm">
+       <input type="text" id="country" placeholder="Search for a country.." required>
+       <input type="submit" value="Show Covidcases">
+
+   </form>
+   <div id="confirmed" class="minibox"></div>
+   <div id="deaths" class="minibox"></div>
+   </div>
+
+   <div class="box">
+       <h1>World cases</h1>
+    <form id="worldForm">
+    <input type="submit" value="Show totalcases in world">
+    </form>
+    <div id="totalconfirmed" class="minibox"></div>
+   <div id="totaldeaths" class="minibox"></div>
+</div>
+
+
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px;
+}
+
+body {
+  color: #fafafa;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(31, 2, 24, 0.815),
+      rgba(56, 5, 43, 0.548)
+    ),
+    url("../img/covid.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(245, 232, 242, 0.781);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input:hover {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(245, 232, 242);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.box h1 {
+  margin: 10px;
+}
+
+.minibox {
+  margin: 10px;
+}
